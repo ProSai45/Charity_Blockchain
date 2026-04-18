@@ -1,0 +1,21 @@
+{
+  "name": "blockchain-charity-donation-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local prototype for a blockchain-based charity donation platform using Truffle and Ganache.",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "migrate:reset": "truffle migrate --network development --reset",
+    "test": "truffle test",
+    "client:install": "cd client && npm install",
+    "client:build": "cd client && npm run build",
+    "client:dev": "cd client && npm run dev"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
